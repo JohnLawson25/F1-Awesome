@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './Teams.css';
-import NavBar from './components/navBar';
+import NavBar from './components/NavBar';
 
 
 
