@@ -1,6 +1,6 @@
 import React from 'react';
 import './landingCss.css';
-import NavBar from './components/navBar';
+
 
 
 

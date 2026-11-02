@@ -15,7 +15,7 @@
 }
 
 .navItem {
-margin-left: auto;
+margin-left: 70px;
 padding-right: 30px;
 font-size: 18pt;
 color: white;
@@ -30,12 +30,33 @@ color: white;
 }
 
 /* Base style for the React NavLink */
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: auto;
+}
+
 .nav-link-item {
-  color: #f4f4f5;
+    font-size: 18pt;
+    color: white;
+    text-decoration: none;
 }
 
 /* Automatically applied by React Router when the link is active */
 .nav-link-item.active {
+  color: #f0414d;
+  font-weight: bold;
+}
+
+.nav-link-item2.active {
   color: #f0414d;
   font-weight: bold;
 }

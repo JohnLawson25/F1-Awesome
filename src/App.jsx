@@ -3,7 +3,7 @@ import LandingPage from "./landingPage.jsx";
 import Layout from "./Layout.jsx";
 import Teams from "./Teams.jsx";
 import News from "./News.jsx";
-import Contact from "./Contact.jsx";
+import Contact from "./contact.jsx";
 import Shop from "./Shop.jsx";
 import Login from "./Login.jsx";
 import Register from "./Register.jsx";
