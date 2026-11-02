@@ -1,0 +1,41 @@
+
+.navContainer{
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+
+    background-color:rgb(5, 6, 6);
+    
+}
+
+.navTitle {
+    padding-left: 30px;
+    font-size: 24pt;
+    color: white;
+}
+
+.navItem {
+margin-left: auto;
+padding-right: 30px;
+font-size: 18pt;
+color: white;
+}
+
+.navItem2 {
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-right: 20px;
+    font-size: 18pt;
+    color: white;
+}
+
+/* Base style for the React NavLink */
+.nav-link-item {
+  color: #f4f4f5;
+}
+
+/* Automatically applied by React Router when the link is active */
+.nav-link-item.active {
+  color: #f0414d;
+  font-weight: bold;
+}

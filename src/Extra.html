@@ -1,0 +1,29 @@
+Extra
+
+const selectedTeam = teams.find((team) => (singleTeamId === team.id));
+
+ const handleSelect = (id) => {
+    if(singleTeamId === id) {
+      setSingleTeamId(null);
+    } else {
+    setSingleTeamId(id)
+    }
+};
+
+<ul>
+      {teams.map((team) => {
+        return (
+        <li key={team.id} className={singleTeamId === team.id ? "selected" : ""}>
+          {team.name}
+          <button onClick={() => {
+            handleSelect(team.id);
+        }}
+        > 
+        {singleTeamId === team.id ? "Unselect" : "Select"}
+         </button>
+        </li>
+        );
+      })}
+      
+    </ul>
+      {singleTeamId ? <h2>{ selectedTeam.name }</h2> : <h2>Nope</h2>}
