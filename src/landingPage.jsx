@@ -13,17 +13,6 @@ export default function LandingPage() {
       <h3>Ask F1 AI Agent</h3>
       </div>
       <div className="gridContainer">
-      <div className="sideBar">
-        <h3>Check out our Shop!</h3>
-        <ul>
-        <li className="sideBarItem1"><img src='/images/helmet.jpg' alt="Helemt" width="150" height="150" />
-        <p>Full size Replica Helmets</p></li>
-        <li className="sideBarItem2"><img src='/images/shirt.webp' alt="Shirt" width="150" height="150" />
-        <p>Team Shirts</p></li>
-        <li className="sideBarItem3"><img src='/images/images.jpg' alt="Hat" width="150" height="150" />
-        <p>Team Hats</p></li> 
-        </ul> 
-      </div>
         <div className="gridItem1">
           <h2>Latest Race</h2>
           <img src='/images/race.webp' alt="Latest Race" width="300" height="200" />
@@ -40,7 +29,17 @@ export default function LandingPage() {
           <h2>Teams</h2>
           <img src='/images/teams.jpg' alt="Teams" width="300" height="200" />
         </div>
-
+        <div className="sideBar">
+        <h3>Check out our Shop!</h3>
+        <ul>
+        <li className="sideBarItem1"><img src='/images/helmet.jpg' alt="Helemt" width="150" height="150" />
+        <p>Full size Replica Helmets</p></li>
+        <li className="sideBarItem2"><img src='/images/shirt.webp' alt="Shirt" width="150" height="150" />
+        <p>Team Shirts</p></li>
+        <li className="sideBarItem3"><img src='/images/images.jpg' alt="Hat" width="150" height="150" />
+        <p>Team Hats</p></li> 
+        </ul> 
+      </div>
 
       </div>
     </main>
