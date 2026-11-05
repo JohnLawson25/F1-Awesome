@@ -1,6 +1,6 @@
 import React from 'react';
-import './landingCss.css';
-import NavBar from './components/NavBar';
+import './news.css';
+import ThemeToggle from './components/ThemeToggle.jsx';
 
 
 export default function News() {

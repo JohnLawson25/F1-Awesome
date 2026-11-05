@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './Teams.css';
-import NavBar from './components/NavBar';
+import ThemeToggle from './components/ThemeToggle.jsx';
 
 
 
