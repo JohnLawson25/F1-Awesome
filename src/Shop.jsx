@@ -5,6 +5,7 @@ function Shop() {
 
     return (
         <div>
+            <ThemeToggle />
             <h1>Welcome to the Merchandise Shop</h1>
             <div>
                 <p>Product1</p>

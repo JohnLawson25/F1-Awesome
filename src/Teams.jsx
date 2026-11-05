@@ -9,7 +9,7 @@ const Teams = () => {
   return (
     
     <main className="main">
-      <h1>Welcome to the F1 Landing Page</h1>
+      <ThemeToggle />
       <h3>Ask F1 AI Agent</h3>
       Teams Page
       <div className="TeamsGridContainer">
