@@ -19,8 +19,6 @@ export default function NavBar() {
         <NavLink className="nav-link-item" to="/News">News</NavLink>
         <NavLink className="nav-link-item" to="/Teams">Teams</NavLink>
         <NavLink className="nav-link-item" to="/Shop">Shop</NavLink>
-        <NavLink className="nav-link-item" to="/Register">Register</NavLink>
-        <NavLink className="nav-link-item" to="/Login">Login</NavLink>
         <NavLink className="nav-link-item" to="/Contact">Contact</NavLink>
     </div>
 </div>

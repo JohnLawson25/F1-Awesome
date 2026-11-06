@@ -1,5 +1,5 @@
 import React from 'react';
-import './landingCss.css';
+import './New.css';
 import NavBar from './components/NavBar';
 import ThemeToggle from './components/ThemeToggle';
 

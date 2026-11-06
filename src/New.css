@@ -1,0 +1,29 @@
+.newsGridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.newsGridItem1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin-left: 50px;
+}
+
+.newsGridItem2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-left: 20px;
+}
+
+.newsGridItem3{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin-left: 50px;
+}
+
+.newsGridItem4{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin-left: 20px;
+}
