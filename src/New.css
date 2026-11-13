@@ -1,6 +1,11 @@
+p {
+    font-size: 20pt;
+    max-width: 500px;
+}
+
 .newsGridContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 

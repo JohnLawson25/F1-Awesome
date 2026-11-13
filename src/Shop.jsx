@@ -8,16 +8,22 @@ function Shop() {
             <ThemeToggle />
             <h1>Welcome to the Merchandise Shop</h1>
             <div>
-                <p>Product1</p>
+                <h2>Replica Helmets</h2>
                 <img src='/images/helmet.jpg' alt="Replica Helmet" />
+                <p>Miniature replica helmets of your favorite F1 drivers.</p>
+                <p>$35.00</p>
             </div>
             <div>
-                <p>Product2</p>
+                <h2>Team Shirts</h2>
                 <img src='/images/shirt.webp' alt="Team Shirts" />
+                <p>Official team shirts for all your favorite F1 teams.</p>
+                <p>$50.00</p>
             </div>
             <div>
-                <p>Product3</p>
-                <img src='/images/images.jpg' alt="Team Hats" />
+                <h2>Team Hats</h2>
+                <img src='/images/hat.webp' alt="Team Hats" />
+                <p>Official team hats for all your favorite F1 teams.</p>
+                <p>$25.00</p>
             </div>
         </div>
     );

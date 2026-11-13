@@ -1,36 +1,22 @@
 console.log("Hello From the inside")
 
 import express from "express";
+import { router } from "./api/index.js";
 import morgan from "morgan";
 import { drivers, teams } from "./data.js";
 const app = express();
 
 app.use(morgan("dev")); //Third party logging middleware
 
-/*app.use( (req, res, next) =>{
+/*app.use( (req, res, next) =>{ //Our own loggin middleware
     console.log( `${req.method} - ${req.originalUrl}`);
     next();
 }); */
 
-app.get("/", (req, res, next) =>{
-    res.send("I am the backend of the F1 Awesome App");
-});
+//api express router getting rid of the /api prefix in the routes
+app.use("/api", router);
 
-app.get("/api/drivers", (req, res, next) =>{
-    res.send(drivers);
-});
 
-app.get("/api/drivers/:id", (req, res, next) =>{
-    const { id } = req.params;
-    const singleDriver = drivers.find((driver) => {
-        return driver.id === +id;
-    });
-    res.send(singleDriver);
-});
-
-app.get("/api/teams", (req, res, next) =>{
-    res.send(teams);
-});
 
 const init = () => {
     const PORT = 3000;

@@ -16,7 +16,7 @@ export default function LandingPage() {
         <div className="gridItem1">
           <h2>Latest Race</h2>
           <img src='/images/race.webp' alt="Latest Race" width="300" height="200" />
-          <p> It was a great race in Austin Texas as RedBull and Mercades fought it out for the win.</p>
+          <p> It was a fantastic wet race in Brazil!</p>
         </div>
         <div className="gridItem2">
           <h2>News</h2>
